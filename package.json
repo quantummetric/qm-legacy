@@ -1,0 +1,39 @@
+{
+  "name": "qm-legacy",
+  "version": "1.0.0",
+  "description": "Legacy support for our utility scripts implementing async, functional, and immutable JavaScript.",
+  "main": "index.js",
+  "files": [
+    "immutable-optics.js",
+    "immutable-util.js",
+    "functional-util.js",
+    "index.js",
+    "maybe.js",
+    "README.md"
+  ],
+  "author": "Quantum Metric",
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "standard",
+    "release": "semantic-release",
+    "test": "mocha *.test.js"
+  },
+  "keywords": [
+    "functional",
+    "immutable",
+    "monad",
+    "maybe",
+    "optics"
+  ],
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "semantic-release": "^19.0.5",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "immutable": "^4.1.0"
+  }
+}
