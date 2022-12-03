@@ -6,5 +6,23 @@ Previously, this project was in separate repositories for:
 
 - functional-util
 - maybe
-- immutable-util
+  - Maybe
 - immutable-optics
+  - traversal
+  - postOrderTraversal
+  - preOrderTraversal
+- immutable-util
+  - immMemoize
+  - list
+  - walk
+  - patch
+  - remove
+  - startsWith
+  - endsWith
+  - isInstance
+  - ImmutableRecordMemoize
+  - cartesianProduct
+  - transpose
+  - complement
+  - splitIntoChunks
+  - partitionB

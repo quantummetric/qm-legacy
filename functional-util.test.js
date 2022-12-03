@@ -1,5 +1,5 @@
 const chai = require('chai');
-const _ = require('./index');
+const _ = require('./functional-util.js');
 
 describe('functional utilities', function () {
 
