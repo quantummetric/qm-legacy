@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/quantummetric/qm-legacy/compare/v1.0.0...v1.1.0) (2022-12-06)
+
+
+### Features
+
+* add display class and test file ([#5](https://github.com/quantummetric/qm-legacy/issues/5)) ([6268088](https://github.com/quantummetric/qm-legacy/commit/62680886ada3c9d73ec00721065cbc1cbd7a8367))
+
 # 1.0.0 (2022-12-03)
 
 
