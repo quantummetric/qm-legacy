@@ -18,6 +18,10 @@
     "release": "semantic-release",
     "test": "mocha *.test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quantummetric/qm-legacy.git"
+  },
   "keywords": [
     "functional",
     "immutable",
