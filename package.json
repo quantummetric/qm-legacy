@@ -4,9 +4,10 @@
   "description": "Legacy support for our utility scripts implementing async, functional, and immutable JavaScript.",
   "main": "index.js",
   "files": [
+    "display.js",
+    "functional-util.js",
     "immutable-optics.js",
     "immutable-util.js",
-    "functional-util.js",
     "index.js",
     "maybe.js",
     "README.md"

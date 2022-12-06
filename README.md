@@ -4,6 +4,8 @@ Legacy support for our utility scripts implementing async, functional, and immut
 
 Previously, this project was in separate repositories for:
 
+- display
+  - Display
 - functional-util
 - maybe
   - Maybe
