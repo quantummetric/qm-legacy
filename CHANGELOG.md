@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/quantummetric/qm-legacy/compare/v1.1.0...v1.1.1) (2022-12-06)
+
+
+### Bug Fixes
+
+* add display to list of files ([#6](https://github.com/quantummetric/qm-legacy/issues/6)) ([3185064](https://github.com/quantummetric/qm-legacy/commit/3185064d054cab6591dd6fcc5d02ae3f8f34e9e7))
+
 # [1.1.0](https://github.com/quantummetric/qm-legacy/compare/v1.0.0...v1.1.0) (2022-12-06)
 
 
