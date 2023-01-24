@@ -1,3 +1,4 @@
+const Immutable = require('immutable');
 const { expect } = require('chai');
 const subject = require('./immutable-optics.js');
 
@@ -13,7 +14,7 @@ describe('traversal', () => {
     const { traversal } = subject;
 
     it('should traverse the object and apply the function to each element', () => {
-        const obj = { a: { b: { c: 1 } } };
+        const obj = Immutable.fromJS({ a: { b: { c: 1 } } });
         const traversalFn = (o) => [['a', 'b', 'c']];
         const fn = (val, path) => val + 1;
         const updatedObj = traversal(traversalFn)(fn)(obj);
