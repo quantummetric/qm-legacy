@@ -10,6 +10,8 @@ describe('immutable-optics', () => {
 });
 
 describe('traversal', () => {
+    const { traversal } = subject;
+
     it('should traverse the object and apply the function to each element', () => {
         const obj = { a: { b: { c: 1 } } };
         const traversalFn = (o) => [['a', 'b', 'c']];
