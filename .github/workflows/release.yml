@@ -5,18 +5,28 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read # for checkout
+
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+      id-token: write # to enable use of OIDC for npm provenance
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: false
       - uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: 'lts/*'
+          registry-url: 'https://registry.npmjs.org'
       - run: npm ci
+      - run: npm audit signatures
       - run: npm run build --if-present
       - name: create release
         env:
