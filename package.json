@@ -17,7 +17,7 @@
   "scripts": {
     "lint": "standard",
     "release": "semantic-release",
-    "test": "mocha *.test.js",
+    "test": "mocha *.test.mjs",
     "test:coverage": "nyc npm t"
   },
   "repository": {

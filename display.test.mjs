@@ -1,5 +1,5 @@
-const { expect } = require("chai");
-const Display = require("./display.js");
+import { expect } from 'chai';
+import Display from './display.js';
 
 describe('Display', () => {
     it('exports functions', () => {
