@@ -1,5 +1,5 @@
-const assert = require('node:assert')
-const Maybe = require('./maybe.js')
+import assert from 'node:assert';
+import Maybe from './maybe.js';
 
 const testData = { table: { rows: [{ metrics: ['b'] }] } }
 

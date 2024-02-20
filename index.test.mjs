@@ -1,5 +1,5 @@
-const { expect } = require("chai");
-const subject = require("./index.js");
+import { expect } from 'chai';
+import subject from './index.js';
 
 describe('index', () => {
     it('index exports modules', () => {

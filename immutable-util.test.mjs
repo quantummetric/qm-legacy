@@ -1,5 +1,5 @@
-const { expect } = require('chai');
-const subject = require('./immutable-util.js');
+import { expect } from 'chai';
+import subject from './immutable-util.js';
 
 describe('immutable-util', () => {
     it('exports functions', () => {
