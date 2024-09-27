@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/quantummetric/qm-legacy/compare/v1.1.1...v1.2.0) (2024-09-27)
+
+
+### Features
+
+* split up display into separate functions ([#76](https://github.com/quantummetric/qm-legacy/issues/76)) ([0fed291](https://github.com/quantummetric/qm-legacy/commit/0fed291d2493c733c359c1310cef409f00993973))
+
 ## [1.1.1](https://github.com/quantummetric/qm-legacy/compare/v1.1.0...v1.1.1) (2022-12-06)
 
 
