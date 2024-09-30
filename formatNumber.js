@@ -1,5 +1,5 @@
-const decimalPlaces = require('./decimalPlaces');
-const suffixWith = require('./suffixWith');
+const decimalPlaces = require('./decimalPlaces.js');
+const suffixWith = require('./suffixWith.js');
 
 module.exports = function formatNumber(precision = 1, lessThanOneThousandPrecision = 2) {
     return (numberArg) => {
