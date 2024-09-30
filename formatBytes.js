@@ -1,9 +1,9 @@
 const flowRight = require('lodash.flowright');
 const isFinite = require('lodash.isfinite');
-const decimalPlaces = require('./decimalPlaces');
-const prefixWith = require('./prefixWith');
-const suffixWith = require('./suffixWith');
-const unitConversion = require('./unitConversion');
+const decimalPlaces = require('./decimalPlaces.js');
+const prefixWith = require('./prefixWith.js');
+const suffixWith = require('./suffixWith.js');
+const unitConversion = require('./unitConversion.js');
 
 module.exports = function formatBytes() {
     return (numberArg) => {

@@ -56,6 +56,6 @@
     "lodash.flowright": "^3.5.0",
     "lodash.isfinite": "^3.3.2",
     "lodash.tofinite": "^4.12.1",
-    "moment": "^2.29.1"
+    "moment-timezone": "^0.5.45"
   }
 }
