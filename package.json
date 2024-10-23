@@ -16,7 +16,6 @@
     "immutable-optics.js",
     "immutable-util.js",
     "index.js",
-    "maybe.js",
     "numberWithCommas.js",
     "prefixWith.js",
     "suffixWith.js",
@@ -39,7 +38,6 @@
     "functional",
     "immutable",
     "monad",
-    "maybe",
     "optics"
   ],
   "devDependencies": {

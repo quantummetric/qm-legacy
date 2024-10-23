@@ -18,8 +18,6 @@ Previously, this project was in separate repositories for:
   - `suffixWith`
   - `unitConversion`
 - functional-util
-- maybe
-  - `Maybe`
 - immutable-optics
   - `traversal`
   - `postOrderTraversal`
