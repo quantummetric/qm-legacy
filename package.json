@@ -52,7 +52,7 @@
     "standard": "^17.1.2"
   },
   "dependencies": {
-    "immutable": "^3.8.2",
+    "immutable": "^5.0.0",
     "lodash.flowright": "^3.5.0",
     "lodash.isfinite": "^3.3.2",
     "lodash.tofinite": "^4.12.1",
