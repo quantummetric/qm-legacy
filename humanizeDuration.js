@@ -1,5 +1,5 @@
-const moment = require('moment');
-const formatNumber = require('./formatNumber');
+const moment = require('moment-timezone');
+const formatNumber = require('./formatNumber.js');
 
 const abbreviations = {
     millisecond: 'ms',
